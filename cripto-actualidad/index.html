@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bloque Base — Actualidad cripto cada hora</title>
+<meta name="description" content="Titulares del mundo cripto resumidos, actualizados automáticamente cada hora, con enlace directo a la fuente original." />
+
+<!-- ============================================================ -->
+<!-- HUECO PARA GOOGLE ADSENSE (paso 8 del README): pega aquí     -->
+<!-- el script de verificación que te da AdSense, tal cual te lo  -->
+<!-- entreguen, antes de la etiqueta </head>.                     -->
+<!-- ============================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="Bloque Base, inicio">
+      <span class="brand-mark">◆</span>
+      <span class="brand-name">Bloque Base</span>
+    </a>
+    <nav class="filters" aria-label="Filtrar por categoría">
+      <button class="filter is-active" data-tag="all">Todo</button>
+      <button class="filter" data-tag="Bitcoin">Bitcoin</button>
+      <button class="filter" data-tag="Ethereum">Ethereum</button>
+      <button class="filter" data-tag="Regulación">Regulación</button>
+      <button class="filter" data-tag="Mercado">Mercado</button>
+      <button class="filter" data-tag="DeFi">DeFi</button>
+    </nav>
+    <div class="pulse" id="pulse">
+      <span class="pulse-dot"></span>
+      <span id="pulse-text">actualizando…</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="lead" id="lead" aria-label="Noticia destacada">
+    <!-- rellenado por script.js -->
+  </section>
+
+  <section class="feed-section">
+    <h2 class="feed-heading">Última hora</h2>
+    <div class="timeline" id="timeline">
+      <!-- rellenado por script.js -->
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- HUECO ANUNCIO 1 (paso 8 del README): pega aquí tu <ins> de   -->
+  <!-- unidad de anuncio de AdSense una vez te aprueben el sitio.   -->
+  <!-- ============================================================ -->
+  <div class="ad-slot" id="ad-slot-mid" aria-hidden="true"></div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Bloque Base recopila titulares de fuentes cripto públicas y enlaza siempre a la noticia original. No reproducimos artículos completos.</p>
+    <p class="fine">Actualizado automáticamente cada hora. Última actualización: <span id="footer-updated">—</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "bloque-base-cripto",
+  "version": "1.0.0",
+  "description": "Web de actualidad cripto que se actualiza sola cada hora.",
+  "type": "module",
+  "scripts": {
+    "fetch-news": "node scripts/fetch-news.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
