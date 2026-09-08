@@ -1,0 +1,35 @@
+{
+  "lastUpdated": "2026-09-08T08:00:00.000Z",
+  "items": [
+    {
+      "id": "seed-1",
+      "title": "Bienvenido — esto es contenido de ejemplo",
+      "source": "Plantilla",
+      "link": "#",
+      "pubDate": "2026-09-08T08:00:00.000Z",
+      "tag": "Mercado",
+      "summary": "Estas tarjetas de ejemplo desaparecen en cuanto actives el robot de actualización (ver README). El sistema busca en fuentes reales cada hora y las sustituye automáticamente.",
+      "take": "Sigue los pasos del README para conectar las fuentes reales de noticias."
+    },
+    {
+      "id": "seed-2",
+      "title": "Cada noticia real llevará: titular, resumen corto y una lectura rápida",
+      "source": "Plantilla",
+      "link": "#",
+      "pubDate": "2026-09-08T07:00:00.000Z",
+      "tag": "Bitcoin",
+      "summary": "El resumen se genera a partir del propio feed de la fuente original, y siempre se enlaza a la noticia completa — nunca se copia el artículo entero.",
+      "take": "Así evitas problemas de derechos de autor y cumples mejor las políticas de AdSense."
+    },
+    {
+      "id": "seed-3",
+      "title": "Las categorías se asignan solas según palabras clave",
+      "source": "Plantilla",
+      "link": "#",
+      "pubDate": "2026-09-08T06:00:00.000Z",
+      "tag": "Regulación",
+      "summary": "Bitcoin, Ethereum, Regulación, Mercado y DeFi son las etiquetas iniciales; puedes añadir más editando el script.",
+      "take": "Personaliza las categorías en scripts/fetch-news.js cuando quieras."
+    }
+  ]
+}
